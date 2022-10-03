@@ -12,20 +12,37 @@
 
     <!--encabezado-->
 
-   <header class="container-fluid header">
+  <header>
+
+    <div class="conteiner">
+        <div class="col-12 text-sm-center">
+        <div class="row">
+            <nav class="nav-principal">
+                <a href="">Cba Turismo</a>
+              
+            </nav>
+           </div>
+    </div>
+
+
+
+    <div class="encabezado">
+        <div class="card border-secondery m-2 mx-auto" style="width: 62rem;">
+        <img src="PAG.SIERRAS/principal.jpg" alt="">
+     </div>
+    
 
      <!-- Introduccion texto -->
-
-       <div class="row">
-       </div>
-          <div class="col-12 w-75 text-md-end">
-              <h1>Conoce Cba</h1>
+       <div class="row d-flex justify-content-center space-around gy-5- text-black text-center">
+          <div class="col-12 w-75 text-end">
+              <h1>Conocé Cordoba</h1>
             </div>
-          <div class="col-12 w-75 text-md-end">
-                <p>La provincia de Cordoba es un destino ideal para experimentar diversas sensaciones que aun viajero le pueden provocar placer. Es el lugar donde el turista podrá disfrutar todo el año de propuestas></p>
+          <div class="col-12 w-75 text-end">
+            <div class="card border-secondery m-2 mx-auto">
+                <p>La provincia de Cordoba es un destino ideal para experimentar diversas sensaciones que aun viajero le pueden provocar placer. Es el lugar donde el turista podrá disfrutar todo el año de propuestas</p>
             </div>
 
-</header>
+
 
 <!--seccioncards-->
 
@@ -37,23 +54,24 @@
         </div>
     </div>
 
-    
-    <div class="row" >
+
+
+    <div class="row">
         <!--carlos paz-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card border-secondary m-2 mx-auto" style="width: 18rem;">
-            <img src="PAG SIERRAS/carlospaz-undia-1.jpg" class="card-img-top img-card rounded-1" alt="Carlos Paz">
+            <div class="card border-secondery m-2 mx-auto" style="width: 18rem;">
+            <img src="PAG.SIERRAS/carlospaz-undia-1.jpg" class="card-img-top img-card rounded-1" alt="Carlos Paz">
             <div class="card-body">
                 <h5 class="card-title">Carlos Paz</h5>
             </div>
         </div>
     </div>
-
+  
     
         <!--La falda-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4"></div>
-            <div class="card border-secondary m-2 mx-auto" style="width: 18rem;">
-            <img src="PAG SIERRAS/lafalda 2.jpg" class="card-img-top img-card rounded-1" alt="La Falda">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card border-secondery m-2 mx-auto" style="width: 18rem;">
+            <img src="PAG.SIERRAS/lafalda 2.jpg" class="card-img-top img-card rounded-1" alt="La Falda">
             <div class="card-body">
                 <h5 class="card-title">La Falda</h5>
             </div>
@@ -62,9 +80,9 @@
 
     
         <!--Quebrada-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4"></div>
-            <div class="card border-secondary m-2 mx-auto" style="width: 18rem;">
-            <img src="PAG SIERRAS/Quebrada 3.jpg" class="card-img-top img-card rounded-1" alt="Quebrada del Condorito">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card border-secondery m-2 mx-auto" style="width: 18rem;">
+            <img src="PAG.SIERRAS/769_img.jpg" class="card-img-top img-card rounded-1" alt="Quebrada del Condorito">
             <div class="card-body">
                 <h5 class="card-title">Quebrada del Condorito</h5>
             </div>
@@ -73,75 +91,61 @@
 
 
 
-</section>
-
-
-
-
-
-
-</div>
-
- <br><br>
-
-
-<!--foto al pie -->
-
-
+</header>  
+<!--Miramar de Ansenuza-->
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-lg-6 g-0">
+            <img class="img-fluid h-100" src="PAG.SIERRAS/miramar2.jpg" alt="Miramar, Cordoba">
+        </div>
+        <div class="col-sm-12 col-lg-6 bg-dark text-white text-sm-center text-md-center text-lg-start p-5">
+            <h2>Miramar de Ansenuza</h2>
+            <p>Entre atardeceres de colores vibrantes, Miramar de Ansenuza posee una de las maravillas naturales de la provincia de Córdoba y uno de los humedales salinos más grandes del mundo, la Laguna Mar Chiquita.</p>
+            <button type="button" class="btn btn-outline-secondary text-reset">Conoce mas</button>
     
-
-<div class="logo-casifinal">
-    <img style= "width: 500px;" src="PAG SIERRAS/miramar2.jpg" alt="">
-
+        </div>
+ 
+    
+</section>
  <!-- formulario y footer -->
- <section>
-    <h2> ver que poner aca </h2> 
-
-    <form>
-        <fieldset>
+ <section class="container">
+    <div class="row m-5">
+        <div class="col-12 text-center">
             <legend>Escribinos para más informacion turistica: </legend>
+        </div>
+    
+        <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Firts name">
+            </div>
+            <br><br>
+            <div class="col-12">
+                <div class="row g-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                        <br>
 
-            <div>
-                <label>Nombre</label>
-                <input type="text" placeholder="Tu nombre">
+            <div class="col-12">
+                <textarea class="form-control" aria-label="with texterea" rows="6">Mensaje</textarea>
+
             </div>
 
-            <div>
-                <label>Correo</label>
-                <input type="email" placeholder="Tu email">
+          <div class="col-12">
+            <button type="button" class="btn btn-sucess w-100">Enviar</button>     
+          </div>
+    
+          <footer class="container-fluid">
+            <div class="row">
+                <div class="col bg-footer d-flex justify-content-around align-items-center">
+
+                   <a class="a-reset p-2" href="">Terminos y<br>Condiciones</a>
+                   <a class="a-reset p-2" href="">Derechos reservados</a>
+               </div>
             </div>
 
-            <div>
-                <label for="">Mensaje</label>
-                <textarea></textarea>
-            </div>
-
-            <div>
-                <input type="submit">
-            </div>
-        
-
-        </fieldset>
+          </footer>
 
 
     </form>
-
-
-
-
-
-
-
-
- </div>   
-</section>
-
-
-</section>
-
-
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
